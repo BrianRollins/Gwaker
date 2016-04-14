@@ -1,0 +1,17 @@
+.list li {
+    display: inline !important;
+}
+
+.footer__nav {
+    width: 100% !important;
+}
+
+.main,.main__content {
+    width: 100% !important;
+    border-left: none;
+    float: none !important;
+}
+
+.js_newsletter-btn--subscribe,.footer__items,.mezzanine,.contained-ad-container,.basement,.js_contained-ad-container,.js_ad-promotion,.ad-unit,.sidebar {
+    display: none !important;
+}

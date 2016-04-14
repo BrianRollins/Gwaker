@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+
+  "name": "Gwaker Media Cleanup",
+  "short_name": "Gwaker",
+  "author": "Brian Rollins (BrianRollins.com)",
+  "description": "This extension cleans the extrainous junk from Gawker Media sites, allowing you faster loads and easier reading.",
+  "version": "1.0",
+  "icons": { "16": "icons/icon16.png", "48": "icons/icon48.png", "128": "icons/icon128.png", "512": "icons/icon512.png"},
+  "content_scripts": [
+    {
+      "matches":[
+        "http://*.deadspin.com/*",
+        "http://*.gawker.com/*",
+        "http://*.gizmodo.com/*",
+        "http://*.jalopnik.com/*",
+        "http://*.jezebel.com/*",
+        "http://*.kotaku.com/*",
+        "http://*.lifehacker.com/*"
+      ],
+      "css": ["style.css"],
+      "js": ["jquery-2.2.3.min.js", "core.js"]
+    }
+  ]
+}
