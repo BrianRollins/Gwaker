@@ -15,6 +15,7 @@
         "http://*.gizmodo.com/*",
         "http://*.jalopnik.com/*",
         "http://*.jezebel.com/*",
+		"http://*.kinja.com/*",
         "http://*.kotaku.com/*",
         "http://*.lifehacker.com/*"
       ],
